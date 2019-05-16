@@ -2,7 +2,7 @@
 /**
  *
  * @package       QuickReply Reloaded
- * @copyright (c) 2014 - 2017 Tatiana5 and LavIgor
+ * @copyright (c) 2014 - 2019 Tatiana5 and LavIgor
  * @license       http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
  *
  */
@@ -86,7 +86,8 @@ class plugins_helper
 			$this->config['merge_interval']
 		)
 		{
-			// Always show the checkbox if PostsMerging extension is installed.
+			// Always show the checkbox if PostsMerging extension is installed and
+			// the user has the permission to use this option in current topic.
 			$this->user->add_lang_ext('rxu/PostsMerging', 'posts_merging');
 			$template_variables += array('POSTS_MERGING_OPTION' => true);
 		}
