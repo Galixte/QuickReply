@@ -21,10 +21,10 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'QR_CHANGE_QUICKNICK_STRING' => 'Afficher sur un menu déroulant lorsque l’on clique sur le nom d’utilisateur situé sous l’avatar pour insérer le lien  « Se référer au nom d’utilisateur »',
-	'QR_ENABLE_AJAX_PAGINATION'  => 'Ne pas recharger le formulaire de la réponse rapide lors de la navigation sur le sujet',
+	'QR_CHANGE_QUICKNICK_STRING' => 'Afficher sous l’avatar dans le mini-profil le lien « Se référer au nom d’utilisateur » en lieu est place du menu déroulant, lorsque l’on clique sur le nom d’utilisateur',
+	'QR_ENABLE_AJAX_PAGINATION'  => 'Conserver le contenu du formulaire de la réponse rapide lors de la navigation sur le sujet',
 	'QR_ENABLE_SCROLL'           => 'Activer le défilement automatique lors de la navigation sur le sujet',
 	'QR_ENABLE_SOFT_SCROLL'      => 'Activer le défilement léger et les animations lors de la navigation sur le sujet, après avoir utilisé la réponse rapide',
-	'QR_ENABLE_WARNING'          => 'Avertir lorsque le contenu saisi dans la réponse rapide peut être perdu.',
-	'QR_FIX_EMPTY_FORM'          => 'Permettre de corriger le formulaire de la réponse rapide lorsque celui-ci est vide',
+	'QR_ENABLE_WARNING'          => 'Afficher un avertissement lorsque le contenu saisi dans la réponse rapide risque d’être perdu',
+	'QR_FIX_EMPTY_FORM'          => 'Afficher par défaut le formulaire de la réponse rapide. Dans le cas contraire celui-ci sera minimisé en bas à gauche de l’écran',
 ));
